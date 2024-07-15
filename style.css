@@ -1,0 +1,57 @@
+body {
+    background-color:rgb(186, 221, 235);
+    padding: 20px;  
+}
+
+h1 {
+    text-align: center;
+    color:rgb(55, 52, 52);
+    margin-bottom: 20px;
+}
+
+label {
+    margin-left: 35%;
+    font-weight: 600;
+}
+
+#newTodo {
+    margin-left:40px;
+    padding-top:8px;
+    padding-bottom:8px;;
+    padding-right:5px;
+    padding-left: 5px;
+    border: 1px solid rgb(223, 218, 212);  
+}
+
+#addBtn {
+    background-color:rgb(95, 95, 201);
+    padding: 8px ; 
+    border-radius: 4px;
+}
+
+#addBtn:hover {
+    background-color:rgb(109, 177, 209);
+}
+
+#todoList {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:rgb(229, 237, 245);
+    border: 1px solid rgb(143, 148, 147);  
+}
+
+button {
+    background-color:rgb(194, 88, 88);
+    border: none;
+    padding: 6px 12px;   
+}
+
+button:hover {
+    background-color:rgb(173, 127, 136);
+}
